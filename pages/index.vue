@@ -1,8 +1,9 @@
 <template>
-  <div class="container">
-    <div>
+  <div class="o-page-wrapper">
+    <header>I will be header</header>
+    <main>
       <Logo />
-      <h1 class="title">Тигромишки</h1>
+      <h1 class="title">Assista</h1>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -10,10 +11,11 @@
           rel="noopener noreferrer"
           class="button"
         >
-          Малки тигромишки
+          Try For Free
         </a>
       </div>
-    </div>
+    </main>
+    <footer>I a m footer</footer>
   </div>
 </template>
 
@@ -27,14 +29,15 @@ export default {}
 @apply min-h-screen flex justify-center items-center text-center mx-auto;
 }
 */
-.container {
+
+/* .container {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-}
+} */
 
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,

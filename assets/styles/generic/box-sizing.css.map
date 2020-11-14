@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAC;EACH,kBAAkB,EAAE,UAAU;EAC3B,eAAe,EAAE,UAAU;EACtB,UAAU,EAAE,UAAU;CAC/B;;AAED,AAEE,CAFD,EAAD,CAAC,AAGE,OAAO,EAHV,CAAC,AAIE,MAAM,CAAC;EACJ,kBAAkB,EAAE,OAAO;EACxB,eAAe,EAAE,OAAO;EACnB,UAAU,EAAE,OAAO;CAC1B",
+    "sources": [
+        "box-sizing.scss"
+    ],
+    "names": [],
+    "file": "box-sizing.css"
+}
