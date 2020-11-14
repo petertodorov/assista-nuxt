@@ -2,7 +2,7 @@
   <div class="container">
     <div>
       <Logo />
-      <h1 class="title">assista-nuxt</h1>
+      <h1 class="title">Тигромишки</h1>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -10,7 +10,7 @@
           rel="noopener noreferrer"
           class="button"
         >
-          Assista
+          Малки тигромишки
         </a>
       </div>
     </div>
