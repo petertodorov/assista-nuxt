@@ -1,0 +1,12 @@
+.c-main-header{
+  .o-content-page-wrapper{
+    background:yellow;
+    display:grid;
+    grid-template-columns:300px 1fr;
+  }
+  &__logo-and-name{
+    display:grid;
+    grid-template-columns:61px 1fr;
+  }
+}
+

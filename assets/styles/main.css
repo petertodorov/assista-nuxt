@@ -211,7 +211,6 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
   font-size: 1em;
 }
 
@@ -284,20 +283,20 @@ html input[disabled] {
 }
 
 /**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input {
+  line-height: normal;
+}
+
+/**
  * Remove inner padding and border in Firefox 4+.
  */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
-}
-
-/**
- * Address Firefox 4+ setting `line-height` on `input` using `!important` in
- * the UA stylesheet.
- */
-input {
-  line-height: normal;
 }
 
 /**
@@ -404,7 +403,7 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*, *::before, *::after {
   -webkit-box-sizing: inherit;
   box-sizing: inherit;
 }
@@ -424,7 +423,46 @@ hr {
 .o-page-wrapper {
   min-height: 100vh;
   height: 100vh;
+  margin: 0 auto;
   background: greenyellow;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 75px 1fr 110px;
+      grid-template-rows: 75px 1fr 110px;
+}
+
+.o-content-page-wrapper {
+  max-width: 1290px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+.c-home-main-wrapper {
+  background: lightblue;
+}
+
+.c-main-header .o-content-page-wrapper {
+  background: yellow;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 200px 1fr;
+      grid-template-columns: 200px 1fr;
+}
+
+.c-main-header__logo-and-name {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.c-main-nav__list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .button {

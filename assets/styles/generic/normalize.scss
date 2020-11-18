@@ -233,7 +233,6 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
   font-size: 1em;
 }
 
@@ -307,6 +306,16 @@ html input[disabled] {
   cursor: default;
 }
 
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+ input {
+  line-height: normal;
+}
+
 /**
  * Remove inner padding and border in Firefox 4+.
  */
@@ -317,14 +326,7 @@ input::-moz-focus-inner {
   padding: 0;
 }
 
-/**
- * Address Firefox 4+ setting `line-height` on `input` using `!important` in
- * the UA stylesheet.
- */
 
-input {
-  line-height: normal;
-}
 
 /**
  * It's recommended that you don't attempt to style these elements.
