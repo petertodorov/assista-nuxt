@@ -14,22 +14,8 @@
           <h5>Effortless time tracking</h5>
         </div>
       </div>
-      <nav class="c-main-nav">
-        <ul class="c-main-nav__list">
-          <li class="c-main-nav__list-item">
-            <a href="#" class="c-main-nav__list-item__link"> About</a>
-          </li>
-          <li class="c-main-nav__list-item">
-            <a href="#" class="c-main-nav__list-item__link"> Something</a>
-          </li>
-          <li class="c-main-nav__list-item">
-            <a href="#" class="c-main-nav__list-item__link"> Another thing</a>
-          </li>
-          <li class="c-main-nav__list-item">
-            <a href="#" class="c-main-nav__list-item__link"> My time</a>
-          </li>
-        </ul>
-      </nav>
+      <MainNavigation class="c-main-header__main-navigation" />
+      <MobileNavigation class="c-main-header__mobile-navigation" />
     </div>
   </header>
 </template>

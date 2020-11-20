@@ -1,0 +1,39 @@
+.c-main-mobile-nav__menu__icon {
+  font-size: 30px;
+}
+
+.c-main-mobile-nav__list {
+  box-shadow: 0 6px 10px -2px rgba(0, 0, 0, 0.14);
+  position: absolute;
+  width: 100%;
+  height: 75px;
+  top: 75px;
+  left: 0;
+  background: white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  transition: all 0.5s ease-out;
+}
+
+.c-main-mobile-nav__list-item {
+  font-weight: bold;
+  padding: 0 7px;
+}
+
+.c-main-mobile-nav__list-item__link::before {
+  content: '';
+  opacity: 1;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  bottom: 1px;
+  transition: all 0.3s ease-out;
+}
+
+.c-main-mobile-nav__list-item__link:hover::before {
+  opacity: 0;
+}

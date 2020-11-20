@@ -5,25 +5,33 @@
   // pos:relative and z-index used to show box-shadow over next element
   position: relative;
   z-index: 1;
+
+  &__main-navigation{
+    display:none;
+    @include for-tablet-portrait-up {
+    display:block;
+    }
+  }
+
+  &__mobile-navigation{
+    display:block;
+    @include for-tablet-portrait-up {
+    display:none;
+    }
+  }
+
   .o-content-page-wrapper {
     background: white;
     display: grid;
     column-gap: $primary-spacing;
-    grid-template-columns: max-content;
-    grid-template-rows: max-content max-content;
-    justify-content: center;
+    grid-template-columns: max-content max-content;
+    justify-content: space-between;
     align-items: center;
-
-    @include for-tablet-portrait-up {
-      grid-template-columns: max-content max-content;
-      justify-content: space-between;
-      align-content: center;
-    }
   }
 
   &__logo-and-name {
     display: grid;
-    grid-template-columns: max-content max-content;
+    grid-template-columns: 56px max-content;
     align-items: center;
     column-gap: $primary-spacing;
   }

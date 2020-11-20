@@ -1,21 +1,17 @@
 .o-page-wrapper {
+  // overflow to prevent shrinking on chrome
+  overflow: hidden;
   min-height: 100vh;
   height: 100vh;
   margin: 0 auto;
   display:grid;
-  grid-template-rows:min-content 1fr 110px;
-  @include for-tablet-portrait-up{
-    grid-template-rows:75px 1fr 110px;
-  }
+  grid-template-rows:minmax(75px,auto) 1fr minmax(110px, auto);
 }
 .o-content-page-wrapper {
   max-width: 1290px;
   width:100%;
   height:100%;
   margin:0 auto;
-  padding:20px;
+  padding:10px;
 }
-.box{
-  border: 1px solid red;
 
-}

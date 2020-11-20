@@ -2,12 +2,23 @@
   <footer class="c-main-footer">
     <div class="o-content-page-wrapper">
       <section class="footer__logo-and-copyright">
-        <div class="footer__logo-and-copyright__logo">
+        <a href="www.camplight.net" class="footer__logo-and-copyright__logo">
           <img src="./../static/cl_logo.png" alt="Campligh logo" />
-        </div>
+        </a>
         <p class="footer__logo-and-copyright__copyright">
           © Copyright 2020. All rights reserved.
         </p>
+      </section>
+      <section class="footer__external-links">
+        <a
+          class="footer__external-links__link"
+          href="mailto:assista@camplight.net"
+        >
+          <font-awesome-icon :icon="['fas', 'envelope']" />
+        </a>
+        <a class="footer__external-links__link" href="www.facebook.com">
+          <font-awesome-icon :icon="['fab', 'facebook-square']" />
+        </a>
       </section>
       <section class="footer__privacy">
         <p class="footer__privacy__text">
@@ -17,11 +28,6 @@
         <a href="#" class="footer__privacy__link"
           >Privacy terms and conditions</a
         >
-      </section>
-      <section class="footer_external-links">
-        <a href="mailto:assista@camplight.net">
-          <font-awesome-icon :icon="['fas', 'envelope']" />
-        </a>
       </section>
     </div>
   </footer>
