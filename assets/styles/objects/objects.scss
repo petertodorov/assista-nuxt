@@ -2,14 +2,20 @@
   min-height: 100vh;
   height: 100vh;
   margin: 0 auto;
-  background: greenyellow;
   display:grid;
-  grid-template-rows: 75px 1fr 110px;
+  grid-template-rows:min-content 1fr 110px;
+  @include for-tablet-portrait-up{
+    grid-template-rows:75px 1fr 110px;
+  }
 }
 .o-content-page-wrapper {
   max-width: 1290px;
   width:100%;
   height:100%;
   margin:0 auto;
+  padding:20px;
+}
+.box{
   border: 1px solid red;
+
 }

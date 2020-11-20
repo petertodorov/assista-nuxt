@@ -1,12 +1,39 @@
-.c-main-header{
-  .o-content-page-wrapper{
-    background:yellow;
-    display:grid;
-    grid-template-columns:300px 1fr;
+@import './../settings/variables.scss';
+.c-main-header {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12),
+    0 3px 5px -1px rgba(0, 0, 0, 0.2);
+  // pos:relative and z-index used to show box-shadow over next element
+  position: relative;
+  z-index: 1;
+  .o-content-page-wrapper {
+    background: white;
+    display: grid;
+    column-gap: $primary-spacing;
+    grid-template-columns: max-content;
+    grid-template-rows: max-content max-content;
+    justify-content: center;
+    align-items: center;
+
+    @include for-tablet-portrait-up {
+      grid-template-columns: max-content max-content;
+      justify-content: space-between;
+      align-content: center;
+    }
   }
-  &__logo-and-name{
-    display:grid;
-    grid-template-columns:61px 1fr;
+
+  &__logo-and-name {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    align-items: center;
+    column-gap: $primary-spacing;
+  }
+  &__name {
+    color: $primary-velvet;
+    font-weight:bold;
+  }
+  &__logo__img {
+    background: $primary-velvet;
+    border-radius:50%;
+    padding:5px;
   }
 }
-

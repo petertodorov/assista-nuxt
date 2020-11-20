@@ -1,0 +1,9 @@
+.c-main-footer {
+  color: darkgrey;
+}
+
+.c-main-footer .o-content-page-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: max-content max-content max-content;
+}

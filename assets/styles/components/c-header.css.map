@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "AAAA,AACE,cADY,CACZ,uBAAuB,CAAA;EACrB,UAAU,EAAC,MAAM;EACjB,OAAO,EAAC,IAAI;EACZ,qBAAqB,EAAC,SAAS;CAChC;;AACA,AAAD,6BAAgB,CAAA;EACd,OAAO,EAAC,IAAI;EACZ,qBAAqB,EAAC,OAAO;CAC9B",
+    "mappings": "AACA,AACE,cADY,CACZ,uBAAuB,CAAA;EACrB,UAAU,EAAC,MAAM;EACjB,OAAO,EAAC,IAAI;EACZ,UAAU,ECJG,IAAI;EDKjB,qBAAqB,EAAC,eAAe;EACrC,eAAe,EAAE,aAAa;CAG/B;;AACA,AAAD,6BAAgB,CAAA;EACd,OAAO,EAAC,IAAI;EACZ,qBAAqB,EAAC,uBAAuB;EAC7C,WAAW,EAAC,MAAM;EAClB,UAAU,ECdG,IAAI;CDelB",
     "sources": [
-        "c-header.scss"
+        "c-header.scss",
+        "../settings/variables.scss"
     ],
     "names": [],
     "file": "c-header.css"

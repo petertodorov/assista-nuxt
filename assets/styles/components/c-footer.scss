@@ -1,0 +1,16 @@
+.c-main-footer {
+  color:darkgrey;
+  .o-content-page-wrapper{
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows:fit-content fit-content fit-content;
+
+    @include for-tablet-portrait-up {
+
+      grid-template-rows:fit-content fit-content;
+      justify-content: space-between;
+      align-content: center;
+    }
+
+  }
+}

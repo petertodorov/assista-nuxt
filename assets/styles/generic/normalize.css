@@ -20,7 +20,6 @@ html {
  */
 body {
   margin: 0;
-  background: pink;
 }
 
 /* HTML5 display definitions
@@ -192,8 +191,8 @@ figure {
  * Address differences between Firefox and other browsers.
  */
 hr {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
   height: 0;
 }
 
@@ -308,8 +307,7 @@ input::-moz-focus-inner {
  */
 input[type="checkbox"],
 input[type="radio"] {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */
@@ -333,6 +331,7 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
+  -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   /* 2 */
   box-sizing: content-box;
@@ -397,4 +396,3 @@ td,
 th {
   padding: 0;
 }
-/*# sourceMappingURL=normalize.css.map */

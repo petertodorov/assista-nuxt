@@ -2,8 +2,12 @@
   <header class="c-main-header">
     <div class="o-content-page-wrapper">
       <div class="c-main-header__logo-and-name">
-        <a href="" class="c-main-header__logo">
-          <img src="/assista_logo.png" alt="" />
+        <a href="#" class="c-main-header__logo">
+          <img
+            class="c-main-header__logo__img"
+            src="./../static/assista_logo.png"
+            alt=""
+          />
         </a>
         <div class="c-main-header__name">
           <h4>Assista</h4>
@@ -12,10 +16,18 @@
       </div>
       <nav class="c-main-nav">
         <ul class="c-main-nav__list">
-          <li class="c-main-nav__list-item"><a href="#">About</a></li>
-          <li class="c-main-nav__list-item"><a href="#">Something</a></li>
-          <li class="c-main-nav__list-item"><a href="#">Another thing</a></li>
-          <li class="c-main-nav__list-item"><a href="#">My time</a></li>
+          <li class="c-main-nav__list-item">
+            <a href="#" class="c-main-nav__list-item__link"> About</a>
+          </li>
+          <li class="c-main-nav__list-item">
+            <a href="#" class="c-main-nav__list-item__link"> Something</a>
+          </li>
+          <li class="c-main-nav__list-item">
+            <a href="#" class="c-main-nav__list-item__link"> Another thing</a>
+          </li>
+          <li class="c-main-nav__list-item">
+            <a href="#" class="c-main-nav__list-item__link"> My time</a>
+          </li>
         </ul>
       </nav>
     </div>

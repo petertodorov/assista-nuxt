@@ -11,10 +11,10 @@ export default {
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: [// CSS file in the project
-    '@/assets/styles/main.css',
+  css: [
     // SCSS file in the project
-    '@/assets/styles/main.scss'],
+    '@/assets/styles/main.scss',
+  ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [],
@@ -30,6 +30,8 @@ export default {
     '@nuxtjs/stylelint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    // https://www.npmjs.com/package/@nuxtjs/style-resources
+    '@nuxtjs/style-resources',
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -40,6 +42,8 @@ export default {
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    // https://github.com/Developmint/nuxt-svg-loader
+    'nuxt-svg-loader',
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
@@ -50,4 +54,11 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
+
+  styleResources: {
+    scss: [
+      '~/assets/styles/settings/variables.scss',
+      '~/assets/styles/tools/breakpoints.scss',
+    ],
+  },
 }

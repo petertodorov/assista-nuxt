@@ -5,8 +5,9 @@
   background: greenyellow;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 75px 1fr 110px;
-      grid-template-rows: 75px 1fr 110px;
+  -ms-grid-rows: fit-content 1fr 110px;
+      grid-template-rows: -webkit-fit-content 1fr 110px;
+      grid-template-rows: fit-content 1fr 110px;
 }
 
 .o-content-page-wrapper {
