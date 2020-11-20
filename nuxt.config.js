@@ -32,7 +32,13 @@ export default {
     '@nuxtjs/tailwindcss',
     // https://www.npmjs.com/package/@nuxtjs/style-resources
     '@nuxtjs/style-resources',
+    // https://www.npmjs.com/package/@nuxtjs/fontawesome
+    '@nuxtjs/fontawesome',
   ],
+
+  fontawesome: {
+    icons: { solid: true, brands: true },
+  },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [

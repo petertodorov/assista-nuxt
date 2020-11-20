@@ -18,7 +18,11 @@
           >Privacy terms and conditions</a
         >
       </section>
-      <section class="footer_external-links">Some links here</section>
+      <section class="footer_external-links">
+        <a href="mailto:assista@camplight.net">
+          <font-awesome-icon :icon="['fas', 'envelope']" />
+        </a>
+      </section>
     </div>
   </footer>
 </template>
