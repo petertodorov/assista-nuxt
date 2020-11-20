@@ -1,9 +1,51 @@
 <template>
   <main class="c-home-main-wrapper">
-    <div class="o-content-page-wrapper">
-      <Logo />
-      <h1 class="title">Assista</h1>
-    </div>
+    <section class="page-intro">
+      <div class="o-content-page-wrapper">
+        <div class="page-intro__logo-and-title">
+          <Logo class="page-intro__logo-and-title__logo" />
+          <h1 class="page-intro__title">
+            Time tracking that doesn&apos;t suck!
+          </h1>
+        </div>
+        <p class="page-intro__description">
+          Time tracking was broken for years. Assista fixed it. Assist&apos;s
+          approach transforms time tracking into something you enjoy, not
+          something you are forced to.
+        </p>
+        <button class="c-main__intro__cta">
+          <img src="./../static/tryIt.png" alt="Try it link" />
+        </button>
+      </div>
+    </section>
+
+    <section class="c-main-container c-main__img-container">
+      <div class="o-content-page-wrapper">
+        <img src="./../static/analytics.png" alt="Analytics depiction" />
+      </div>
+    </section>
+
+    <section class="page-quotes">
+      <div class="o-content-page-wrapper">
+        <h2 class="page-quotes__title">Teams love Assista:</h2>
+
+        <blockquote class="page-quotes__quote" cite="www.google.com">
+          <p>"No more start and stop buttons, I love it!"</p>
+          <footer>
+            —John from
+            <cite>Winds Co</cite>
+          </footer>
+        </blockquote>
+
+        <blockquote class="page-quotes__quote" cite="www.google.com">
+          <p>"Wow, the analytics is so great!"</p>
+          <footer>
+            —Ann from
+            <cite>Greater Than</cite>
+          </footer>
+        </blockquote>
+      </div>
+    </section>
   </main>
 </template>
 
@@ -13,11 +55,11 @@ export default {}
 
 <style>
 /* .container {
-	  margin: 0 auto;
-	  min-height: 100vh;
-	  display: flex;
-	  justify-content: center;
-	  align-items: center;
-	  text-align: center;
-	} */
+		  margin: 0 auto;
+		  min-height: 100vh;
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  text-align: center;
+		} */
 </style>

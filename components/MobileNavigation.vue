@@ -1,8 +1,8 @@
 <template>
   <nav class="c-main-mobile-nav">
-    <button class="c-main-mobile-nav__menu" @click="toggleMobileMenu()">
+    <button class="c-main-mobile-nav__button" @click="toggleMobileMenu()">
       <font-awesome-icon
-        class="c-main-mobile-nav__menu__icon"
+        class="c-main-mobile-nav__button__icon"
         :icon="['fas', 'bars']"
       />
     </button>

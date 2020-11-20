@@ -1,11 +1,11 @@
 .o-page-wrapper {
   // overflow to prevent shrinking on chrome
-  overflow: hidden;
+  overflow-y: auto;
   min-height: 100vh;
   height: 100vh;
   margin: 0 auto;
   display:grid;
-  grid-template-rows:minmax(75px,auto) 1fr minmax(110px, auto);
+  grid-template-rows:max-content 1fr max-content;
 }
 .o-content-page-wrapper {
   max-width: 1290px;

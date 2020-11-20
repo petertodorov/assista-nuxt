@@ -1,0 +1,39 @@
+.c-home-main-wrapper{
+  background:$secondary-velvet;
+  color:$primary-velvet;
+
+
+
+  .page-intro{
+    background:white;
+    .o-content-page-wrapper{
+      display:grid;
+      justify-items:center;
+      row-gap:$primary-spacing;
+    }
+    &__title{
+      font-weight:bold;
+      text-align:center;
+    }
+    &__description{
+      font-family: Caveat;
+      font-weight:bold;
+      text-align:center;
+      width:61%;
+    }
+  }
+  .page-quotes{
+    .o-content-page-wrapper{
+      display:grid;
+      justify-items:center;
+      row-gap:$primary-spacing;
+    }
+    background:white;
+    &__title{
+      font-weight:bold;
+    }
+    &__quote{
+      font-family:Caveat;
+    }
+  }
+}

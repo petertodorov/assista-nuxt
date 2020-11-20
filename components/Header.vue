@@ -10,8 +10,8 @@
           />
         </a>
         <div class="c-main-header__name">
-          <h4>Assista</h4>
-          <h5>Effortless time tracking</h5>
+          <h6>Assista</h6>
+          <h6>Effortless time tracking</h6>
         </div>
       </div>
       <MainNavigation class="c-main-header__main-navigation" />

@@ -1,7 +1,15 @@
 .c-main-mobile-nav {
   color: $primary-velvet;
-  &__menu__icon {
-    font-size: 30px;
+
+
+  &__button{
+    padding:$primary-padding;display:flex;
+    justify-content: center;
+    align-items: center;
+
+    &__icon {
+      font-size: 30px;
+    }
   }
 
   &__list {
@@ -13,19 +21,23 @@
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
-    height: 200px;
+    height: 260px;
     top: 61px;
     right: 10px;
     bottom: 0;
     background: white;
-    padding: 10px;
+    padding: $primary-spacing;
     border-radius: 5px;
   }
   &__list-item {
     font-weight: bold;
-    &__link:hover {
-      background: $primary-velvet;
-      opacity: 0.1;
+    &__link{
+      display:block;
+      border-radius:$primary-radius;
+      padding:$primary-padding;
     }
+  }
+  &__list-item:hover a {
+    background: $secondary-velvet;
   }
 }

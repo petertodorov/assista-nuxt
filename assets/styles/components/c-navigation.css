@@ -1,7 +1,7 @@
 .c-main-nav__list {
   height: 100%;
   display: grid;
-  grid-template-columns: max-content max-content max-content max-content max-content;
+  grid-template-columns: max-content max-content max-content max-content;
 }
 
 .c-main-nav__list-item__link {
