@@ -9,7 +9,7 @@
           </h1>
         </div>
         <p class="page-intro__description">
-          Time tracking was broken for years. Assista fixed it. Assist&apos;s
+          Time tracking was broken for years. Assista fixed it. Assista&apos;s
           approach transforms time tracking into something you enjoy, not
           something you are forced to.
         </p>
