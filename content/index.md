@@ -1,10 +1,7 @@
 ---
-title: A powerful and open source content optimizer
-category: software
-description: Learn how I leveraged natural language processing technology to build a full-stack app that suggests improvements to your writing
-image: optimizer-blog.png
-tags: PHP, NLP, API, Web App
+title: home page
+description: this will be my home page
+date: 2020-11-21T18:47:14.805Z
+thumbnail: /media/test.svg
 ---
-
-[some content here](https://www.google.com/)
-
+some text hereeeeeeeeeeee
