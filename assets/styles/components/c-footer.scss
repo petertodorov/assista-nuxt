@@ -22,8 +22,13 @@
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-end;
+    &__logo-container{
+      max-width:100px;
+    }
+
     &__copyright{
       margin-top:5px;
+      font-size:12px;
     }
   }
   .footer__external-links {
@@ -32,9 +37,9 @@
     flex-flow: row wrap;
     justify-content: flex-end;
     align-items: flex-end;
-
     &__link {
       padding: 0 5px;
+      cursor: pointer;
     }
   }
 
@@ -50,9 +55,11 @@
     }
     &__text {
       display: inline-block;
+      font-size:12px;
     }
     &__link {
       text-decoration: underline;
+      font-size:12px;
     }
   }
 }

@@ -2,7 +2,10 @@
   <footer class="c-main-footer">
     <div class="o-content-page-wrapper">
       <section class="footer__logo-and-copyright">
-        <a href="www.camplight.net" class="footer__logo-and-copyright__logo">
+        <a
+          href="https://camplight.net/"
+          class="footer__logo-and-copyright__logo-container"
+        >
           <img src="./../static/cl_logo.png" alt="Campligh logo" />
         </a>
         <p class="footer__logo-and-copyright__copyright">
@@ -16,7 +19,10 @@
         >
           <font-awesome-icon :icon="['fas', 'envelope']" />
         </a>
-        <a class="footer__external-links__link" href="www.facebook.com">
+        <a
+          class="footer__external-links__link"
+          href="https://www.facebook.com/camplight/"
+        >
           <font-awesome-icon :icon="['fab', 'facebook-square']" />
         </a>
       </section>

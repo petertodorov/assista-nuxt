@@ -31,17 +31,20 @@
 
   &__logo-and-name {
     display: grid;
-    grid-template-columns: 56px max-content;
+    grid-template-columns: 80px max-content;
     align-items: center;
     column-gap: $primary-spacing;
   }
   &__name {
-    color: $primary-velvet;
+    color: $primary-color;
     font-weight:bold;
+    & *{
+      font-size:12px;
+    }
   }
-  &__logo__img {
-    background: $primary-velvet;
-    border-radius:50%;
-    padding:5px;
-  }
+  // &__logo__img {
+  //   background: $primary-color;
+  //   border-radius:50%;
+  //   padding:5px;
+  // }
 }

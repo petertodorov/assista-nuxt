@@ -7,7 +7,7 @@
   }
   &__list-item__link {
     font-weight:bold;
-    color:$primary-velvet;
+    color:$primary-color;
     position:relative;
     &::before{
       content:'';
@@ -17,7 +17,7 @@
       width: 100%;
       height: 2px;
       top: 23px;
-      background:$primary-velvet;
+      background:$primary-color;
       transition:all 0.2s ease-out ;
     }
     &:hover::before{

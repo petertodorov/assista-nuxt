@@ -1,38 +1,67 @@
-.c-home-main-wrapper{
-  background:$secondary-velvet;
-  color:$primary-velvet;
+.c-home-main-wrapper {
+  background: $secondary-velvet;
+  color: $primary-color;
+  display:grid;
+  grid-template-rows:max-content minmax(172px,auto) max-content;
 
-
-
-  .page-intro{
-    background:white;
-    .o-content-page-wrapper{
-      display:grid;
-      justify-items:center;
-      row-gap:$primary-spacing;
+  .page-intro {
+    background: white;
+    .o-content-page-wrapper {
+      display: grid;
+      justify-items: center;
+      row-gap: 30px;
     }
-    &__title{
-      font-weight:bold;
-      text-align:center;
+    &__logo-and-title__logo-container {
+      width: 300px;
+      min-height: 196px;
+      margin: 0 auto;
     }
-    &__description{
+    &__title {
+      font-weight: bold;
+      text-align: center;
+    }
+    &__description {
       font-family: 'Caveat', cursive, sans-serif;
-      font-weight:bold;
-      text-align:center;
-      width:61%;
+      font-weight: bold;
+      text-align: center;
+      width: 61%;
+    }
+    &__cta__container {
+      min-height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &__cta {
+        display: flex;
+        padding: $primary-padding 30px;
+        background: $primary-color;
+        color: white;
+        font-weight: bold;
+        border-radius: 25px;
+        transition: all 0.3s ease-out;
+        box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+          0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+        &:hover {
+          opacity: 0.7;
+          box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
+            0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.2);
+        }
+      }
     }
   }
-  .page-quotes{
-    .o-content-page-wrapper{
-      display:grid;
-      justify-items:center;
-      row-gap:$primary-spacing;
+  .page-quotes {
+
+    .o-content-page-wrapper {
+      display: grid;
+      justify-items: center;
+      row-gap: $primary-spacing;
     }
-    background:white;
-    &__title{
-      font-weight:bold;
+    background: white;
+    &__title {
+      font-weight: bold;
+      text-align:center;
     }
-    &__quote{
+    &__quote {
       font-family: 'Caveat', cursive, sans-serif;
     }
   }
