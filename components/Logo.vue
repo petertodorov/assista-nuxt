@@ -1,5 +1,5 @@
 <template>
-  <img class="NuxtLogo" src="/assista_logo.png" alt="Assista" />
+  <img class="NuxtLogo" src="/media/assista_logo.png" alt="Assista" />
 </template>
 
 <style>

@@ -5,7 +5,7 @@
         <a href="#" class="c-main-header__logo">
           <img
             class="c-main-header__logo__img"
-            src="./../static/assista_logo.png"
+            src="./../static/media/assista_logo.png"
             alt=""
           />
         </a>

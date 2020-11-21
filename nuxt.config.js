@@ -1,3 +1,5 @@
+import FMMode from 'frontmatter-markdown-loader/mode'
+
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
@@ -8,7 +10,7 @@ export default {
       { hid: 'description', name: 'description', content: '' },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/media/favicon.ico' },
       {
         rel: 'stylesheet',
         href:
@@ -69,9 +71,18 @@ export default {
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)
   content: {},
-
   // Build Configuration (https://go.nuxtjs.dev/config-build)
-  build: {},
+  build: {
+    extend(config) {
+      config.module.rules.push({
+        test: /\.md$/,
+        loader: 'frontmatter-markdown-loader',
+        options: {
+          mode: [FMMode.VUE_COMPONENT],
+        },
+      })
+    },
+  },
 
   styleResources: {
     scss: [

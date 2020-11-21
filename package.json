@@ -19,6 +19,8 @@
     "@nuxtjs/pwa": "^3.0.2",
     "@nuxtjs/style-resources": "^1.0.0",
     "core-js": "^3.6.5",
+    "frontmatter-markdown-loader": "^3.6.1",
+    "netlify-cms-app": "^2.13.3",
     "nuxt": "^2.14.6",
     "nuxt-svg-loader": "^1.2.0",
     "stylelint-config-prettier": "^8.0.2",

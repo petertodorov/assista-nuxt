@@ -6,7 +6,7 @@
           href="https://camplight.net/"
           class="footer__logo-and-copyright__logo-container"
         >
-          <img src="./../static/cl_logo.png" alt="Campligh logo" />
+          <img src="./../static/media/cl_logo.png" alt="Campligh logo" />
         </a>
         <p class="footer__logo-and-copyright__copyright">
           © Copyright 2020. All rights reserved.
