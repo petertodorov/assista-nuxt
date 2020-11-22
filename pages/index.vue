@@ -10,7 +10,7 @@ export default {
     HomePage,
   },
   async asyncData({ $content }) {
-    const md = await $content('index').fetch()
+    const md = await $content('indexPage/index').fetch()
     return {
       md,
     }
